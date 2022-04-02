@@ -1,0 +1,47 @@
+/*** TEXT SIZE ADJUST ***/
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100;}
+
+/***BOX MODEL***/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+html body { height: 100%; }
+body { color: #4a4a4a; font-size: 16px; font-weight: 400; line-height: 1.5;}
+a { text-decoration: none; }
+h1,h2,h3,h4,h5,h6 { color: var(--main-color); font-weight: 500; line-height: 1.125; }
+h2 { font-size: 1.85rem; line-height: 1.75rem;}
+
+:root {
+    --main-color: #1a1475;
+    --primary-color: #2b8800;
+    --secondar-color: #bf2121;
+}
+
+.limited {max-width: 1200px; margin: auto;}
+
+#top-nav a { color: var(--main-color); font-size: .8rem; font-weight: 300; line-height: 1.25; }
+#top-nav a:hover { text-decoration: underline;}
+#mid-nav a {color: var(--main-color); font-size: .875rem; font-weight: 700; line-height: 1.25;}
+#mid-nav a:hover { color: var(--secondar-color);}
+#mid-nav form input { width: 200px;}
+#mid-nav form button { border: 0; line-height: 1.5; font-size: 1rem; background-color: var(--secondar-color); color: white;}
+#mid-nav form button:hover {background-color: #a71717;}
+
+#how-title { text-align: center; font-weight: 400;}
+#how {
+    display: grid;
+    
+}
+
+#all-products {
+    display: grid;
+    grid-auto-rows: auto;
+    gap: 1rem;    
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+}
+
+.steps span { display: block; margin: 2rem 0 1rem; font-size: 1.1rem;}
+.steps p { font-size: .875rem; padding: 0 1rem;}
