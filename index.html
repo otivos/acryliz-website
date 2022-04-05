@@ -15,10 +15,11 @@
   <link rel="stylesheet" href="./styles/medium.css">
   <link rel="stylesheet" href="./styles/large.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./images/favicon/favicon.ico">
 </head>
 
 <body>
-  <div id="container" >
+  <div id="container">
     <header>
       <div id="top-nav">
         <ul class="nav">
@@ -26,7 +27,8 @@
           <li class="nav-item"> <a href="" class="nav-link"><i class="bi bi-envelope-fill"></i>
               info@acrylizinvestment.co.ke</a></li>
           <li class="nav-item"> <a href="" class="nav-link"><i class="bi bi-whatsapp"></i> +254 703 136 732</a></li>
-          <li class="nav-item"> <a href="#acryliz-map" class="nav-link"><i class="bi bi-geo-fill"></i> Angawa Ave, Kisumu</a></li>
+          <li class="nav-item"> <a href="#acryliz-map" class="nav-link"><i class="bi bi-geo-fill"></i> Angawa Ave,
+              Kisumu</a></li>
         </ul>
       </div>
       <nav id="nav-center" class="navbar navbar-expand-lg navbar-light mt-3">
@@ -60,7 +62,7 @@
         </div>
       </nav>
     </header>
-    <main class="container-fluid">
+    <main>
       <section>
         <div id="hero-section">
         </div>
@@ -90,95 +92,99 @@
         <h2 class="py-5 text-center">OUR PRODUCTS</h2>
         <div id="all-products">
           <div class="products">
-            <img src="./images/products/sm/school-uniforms.jpg" alt="Two pupils wearing school uniforms">
+            <img src="./images/products/sm/school-uniforms.jpg" alt="Two pupils wearing school uniforms" width="300">
           </div>
           <div class="products">
-            <img src="./images/products/sm/embroidery.jpg" alt="Embroidery machine">
+            <img src="./images/products/sm/embroidery.jpg" alt="Embroidery machine" width="300">
           </div>
           <div class="products">
-            <img src="./images/products/sm/corporate-wears.jpg" alt="Two people wearing corporate wears">
+            <img src="./images/products/sm/corporate-wears.jpg" alt="Two people wearing corporate wears" width="300">
           </div>
           <div class="products">
-            <img src="./images/products/sm/sportswear.jpg" alt="Sports wear uniforms">
+            <img src="./images/products/sm/sportswear.jpg" alt="Sports wear uniforms" width="300">
           </div>
           <div class="products">
-            <img src="./images/products/sm/large-fomart-printing.jpg" alt="Large format printing machine">
+            <img src="./images/products/sm/large-fomart-printing.jpg" alt="Large format printing machine" width="300">
+          </div>
+          <div class="products">
+            <img src="./images/products/sm/promotional-merchandise.jpg" alt="Large format printing machine" width="300">
           </div>
         </div>
       </section>
-      <section>
-        <h2>POPULAR CATEGORIES</h2>
+      <section class="mt-5">
+        <h2 class="text-center m-5">POPULAR CATEGORIES</h2>
         <div id="popular-categories">
           <div class="popular">
-            <img src="./images/popular categories/school-uniforms.jpg" alt="Two pupils reading on a staircase">
+            <img src="./images/popular categories/school-uniforms.jpg" alt="Two pupils reading on a staircase" width="300">
           </div>
           <div class="popular">
-            <img src="./images/popular categories/healthcare-uniform.jpg" alt="Nurse wearing a uniform">
+            <img src="./images/popular categories/healthcare-uniform.jpg" alt="Nurse wearing a uniform" width="300">
           </div>
           <div class="popular">
-            <img src="./images/popular categories/security-uniform.jpg" alt="Security guard holding a stick">
+            <img src="./images/popular categories/security-uniform.jpg" alt="Security guard holding a stick" width="300">
           </div>
           <div class="popular">
-            <img src="./images/popular categories/hospitality-uniform.jpg" alt="Chef holding a silver bowl and spoon">
+            <img src="./images/popular categories/hospitality-uniform.jpg" alt="Chef holding a silver bowl and spoon" width="300">
           </div>
         </div>
       </section>
 
-      <section>
-        <div id="acryliz-map" class="container">
+      <section class="py-5">
+        <div id="acryliz-map" class="my-5">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2233086860715!2d34.75035857547812!3d-0.09981780630287067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf97ab01f645e126!2sAcryliz%20Investments%20Limited!5e0!3m2!1sen!2ske!4v1644218826296!5m2!1sen!2ske"
-            width="1080" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </section>
 
       <section>
-        <div id="contact" class="py-5">
-          <div class="mt-3">
+        <div id="contact">
+          <div class="mt-3" id="contact-img">
             <figure>
               <img src="./images/contact_image.png" alt="contact illustration">
             </figure>
           </div>
-          <div class="container mt-3">
+          <div class="container mt-3" id="contact-text">
             <span class="py-3" id="contact-title">Contact Us</span>
             <h3 class="mt-5">Need a quote?</h3>
             <h4 class="py-3">Get in touch with us.</h4>
             <h5>Kisumu Office</h5>
-            <p>Angawa Avenue <br> Next to Kisumu Fire Station <br>+254703136732 <br>acrylizinvestment@gmail.com</p>
-            <button mat-raised-button id="contact-btn">Request a Quote</button>
+            <p>Angawa Avenue <br> Next to Kisumu Fire Station <br><i class="bi bi-whatsapp"></i> +254703136732 <br><i class="bi bi-envelope-fill"></i> info@acrylizinvestment.co.ke</p>
+            <button class="btn" id="contact-btn">Request a Quote</button>
+            <button class="btn btn-outline-success" id="bronchure-btn">Request Bronchure</button>
           </div>
         </div>
       </section>
     </main>
     <footer>
-      <div id="footer" class="main-grid border-top pt-3">
+      <div id="footer" class="border-top pt-3">
         <div id="uniforms">
           <h3>Uniforms &amp; Workwear</h3>
           <ul class="list-unstyled">
-            <li><a>Industrial &amp; Corporate Uniforms</a> </li>
-            <li><a>Security Guard Uniforms</a></li>
-            <li><a>Healthcare &amp; Medical Uniforms</a></li>
-            <li><a>School Uniforms</a></li>
-            <li><a>Healthcare &amp; Medical Uniforms</a></li>
-            <li><a>Sportswear Equipment</a></li>
+            <li><a href="" class="">Industrial &amp; Corporate Uniforms</a> </li>
+            <li><a href="" class="py-2">Security Guard Uniforms</a></li>
+            <li><a href="" class="py-2">Healthcare &amp; Medical Uniforms</a></li>
+            <li><a href="" class="py-2">School Uniforms</a></li>
+            <li><a href="" class="py-2">Healthcare &amp; Medical Uniforms</a></li>
+            <li><a href="" class="py-2">Sportswear Equipment</a></li>
           </ul>
         </div>
         <div id="promotional">
           <h3>Promotional Merchandise</h3>
           <ul class="list-unstyled">
-            <li><a>Branded Clothing &amp; Bags</a> </li>
-            <li><a>Security Guard Uniforms</a></li>
-            <li><a>Marketing Merchandise &amp; Corporate Gifts</a></li>
-            <li><a>Branded Stationery</a></li>
+            <li><a href="" class="py-2">Branded Clothing &amp; Bags</a> </li>
+            <li><a href="" class="py-2">Security Guard Uniforms</a></li>
+            <li><a href="" class="py-2">Marketing Merchandise &amp; Corporate Gifts</a></li>
+            <li><a href="" class="py-2">Branded Stationery</a></li>
           </ul>
         </div>
         <div id="services">
           <h3>Services</h3>
           <ul class="list-unstyled">
-            <li><a>Stitching</a> </li>
-            <li><a>Embroidery</a></li>
-            <li><a>Large Format Printing</a></li>
-            <li><a>Graphic Design</a></li>
+            <li><a href="" class="py-2">Stitching</a> </li>
+            <li><a href="" class="py-2">Embroidery</a></li>
+            <li><a href="" class="py-2">Large Format Printing</a></li>
+            <li><a href="" class="py-2">Graphic Design</a></li>
           </ul>
         </div>
         <div id="social">
@@ -191,7 +197,7 @@
           </span>
         </div>
       </div>
-      <div id="copy" class="text-center border-top py-3">Acryliz Investment Limited &copy;2022 | All Rights Reserved.
+      <div id="copy" class="text-center py-3">Acryliz Investment Limited &copy;2022 | All Rights Reserved.
       </div>
     </footer>
   </div>

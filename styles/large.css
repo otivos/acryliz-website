@@ -1,6 +1,35 @@
 @media only screen and (min-width: 1024px) {
+    
+    #hero-section {
+        background-attachment: fixed;
+    }
+    
     #how {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    #all-products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #popular-categories {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #contact-text {
+        margin-left: 3.5rem;
+    }
+
+    #footer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
 }
