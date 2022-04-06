@@ -21,13 +21,13 @@ h2 { font-size: 1.85rem; line-height: 1.75rem;}
 #nav-center { width: 100%; margin: 0 auto;}
 #top-nav { background-color: var(--main-color);}
 #top-nav a i { margin: .3rem;}
-#top-nav a { color: whitesmoke; font-size: .75rem; font-weight: 400; line-height: 1.25;}
+#top-nav a { color: whitesmoke; font-size: .65rem; font-weight: 500; line-height: 1.25;}
 #top-nav a:hover { color: white; text-decoration: underline;}
-#mid-nav a {color: var(--main-color); font-size: .875rem; font-weight: 500; line-height: 1.25; text-transform: uppercase; margin: 0.65rem 0.2rem;}
+#mid-nav a {color: var(--main-color); font-size: .7rem; font-weight: 700; line-height: 1.25; text-transform: uppercase; margin: 0.65rem 0.2rem;}
 #mid-nav a:hover { color: var(--secondar-color);}
 #mid-nav form {width: fit-content; margin: 0 auto;}
-#mid-nav form input { width: 200px;}
-#mid-nav form button { border: 0; line-height: 1.5; font-size: 1rem; background-color: var(--secondar-color); color: white;}
+#mid-nav form input { width: 200px; font-size: .875rem;}
+#mid-nav form button { border: 0; line-height: 1.5; font-size: .875rem; background-color: var(--secondar-color); color: white;}
 #mid-nav form button:hover {background-color: #a71717;}
 
 
@@ -138,3 +138,12 @@ footer {
     font-weight: 200;
     border-top: 0.5px solid white;
 }
+
+
+/* UNIFORMS AND WORKWEAR SECTION*/
+#uniforms {
+    display: grid;
+}
+
+/* PROMOTIONAL MERCHANDISE SECTION*/
+.products-img { max-width: 100%; height: auto; object-fit: cover; transition: opacity 0.25s ease-in-out;}
