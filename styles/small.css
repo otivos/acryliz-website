@@ -92,6 +92,15 @@ footer h3 {
     text-transform: uppercase;
     margin: 1rem 0 .3rem 0;
     font-weight: 500;
+    color: var(--dark-white);
+}
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    font-size: .785rem;
+    color: var(--primary-color);
 }
 
 .clear-fix:after {
