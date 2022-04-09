@@ -1,9 +1,20 @@
 @media only screen and (min-width: 1024px) {
     
     .large-3 { width: 23%; }
+    .large-3a { width: 31.3%;}
+
+    .column { float: left; padding: 0 2vh; margin: 0 .75rem 0; }
+
+    #main { margin: 0 auto; }
+
+    #primaryNav { float: left; margin: 0 .75rem 0; }
 
     nav ul { margin-left: 2vw; }
-    nav li { width: auto; }
+    nav li { width: 25%; }
     nav a { padding: .7rem 1rem; }
+
+    #top-nav {
+        margin-top: 45px;
+    }
 
 }/* End of media query */
