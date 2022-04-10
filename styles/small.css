@@ -24,29 +24,30 @@ body {
     --sub-color: #2b8800;
 }
 
-#main { max-width: 1200px; margin: 15px; background-color: rgba(255,255,255);}
-
 a {text-decoration: none; cursor: pointer; color: var(--primary-color);}
 a:hover { color: var(--dark-white); text-decoration: underline;}
 
+/* TOP NAVIGATION */
 #top-nav {
     background-color: var(--tertiary-color);
     color: var(--primary-color);
+    margin-top: 50px;
 }
 
-/* TOP NAVIGATION */
 #top-nav li{ font-size: 0.75rem; font-weight: 500; padding: .3rem 0;}
 
+
 /* grid rules */
+.limited { max-width: 1200px; margin: auto; }
+
 .row { clear: both; }
 
-.column1 { float: left; padding: 0 2vh; }
+.column { float: left;}
+
 .small-12 { width: 100% ;}
 
 /* HEADER SECTION */
-header {
-    padding: 1.3rem 0 ;
-}
+header { background-color: var(--primary-color);}
 
 /* NAV SECTION */
 nav { background-color: var(--main-color); }
@@ -71,6 +72,11 @@ nav ul.open { display: block; }
 nav ul { display: none;}
 
 
+
+#mid-nav {
+    margin: 2.5rem 0 3rem 2.5rem;
+}
+
 button#hamburgerBtn {
     background: none;
     border: none;
@@ -82,31 +88,59 @@ button#hamburgerBtn {
 }
 
 /* MAIN SECTION */
-main img {
+main { background-color: white;}
+
+#how-it-works { width: 80%; margin: auto; text-align: center;}
+#how-it-works img {width: 20%; height: 25%;}
+.step h6 { 
+    color: var(--tertiary-color);
+    font-size: .875rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.step p {
+    font-size: .875rem;
+    padding: 0 1rem;
+}
+
+#hero-img img, main img {
     width: 100%;
     height: auto;
 }
 
-main h3 {
-    color: var(--main-color);
-    margin: .5rem 0 .1rem 0;
+#how-title {
+    color: var(--tertiary-color);
     font-style: italic;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding: 2.5rem 0 1.5rem 0;
+}
+
+main h2 {
+    color: var(--tertiary-color);
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+main h2 span {
+    color: var(--main-color);
+    font-size: 1rem;
 }
 
 .labeled {
     position: relative;
 }
 
-.labeled h6, .labeled p {
+.labeled h4, .labeled p {
     position: absolute;
     width: 100;
 }
-.labeled h6 {
-    top: 30%;
+.labeled h4 {
+    top: 35%;
     left: 10%;
     right: 10%;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     background-color: transparent;
     color: var(--primary-color);
     text-align: center;
@@ -125,6 +159,12 @@ main h3 {
     text-align: center;
 }
 
+.labeled p:hover {
+    background-color: #0c084b;
+}
+
+.labeled p a { text-decoration: none;}
+
 
 /* FOOTER SECTION */
 footer {
@@ -132,7 +172,7 @@ footer {
     font-size: 1.2rem;
 }
 footer h3 {
-    font-size: .875em;
+    font-size: .875rem;
     font-style: italic;
     text-transform: uppercase;
     margin: 1rem 0 .3rem 0;

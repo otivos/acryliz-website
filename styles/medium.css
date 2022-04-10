@@ -1,8 +1,12 @@
 @media only screen and (min-width: 768px) {
     
-    .medium-5 { width: 30%;}
+    .medium-6 { width: 50%;}
 
-    .column { float: left; padding: 0 2vh; margin: 0 .75rem 0; }
+    #how-it-works {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     nav button { display: none; }
     nav ul { display: block; }
     nav li { width: 25%; float: left;}
