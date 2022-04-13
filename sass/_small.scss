@@ -77,7 +77,25 @@ nav {
     ul { display: none;}
 }
 
-#mid-nav { padding: .875rem 0;}
+
+
+#mid-nav { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+#search-form input {
+    width: 100%;
+    padding: .57rem 1rem;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 3px;
+}
+
+#search-form input::placeholder {color: rgb(185, 185, 185)}
+
+#btn-bron { background-color: var(--tertiary-color);}
+
 #mid-nav img { width: 180px; }
 
 button#hamburgerBtn {
