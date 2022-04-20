@@ -1,0 +1,22 @@
+    .medium-6 { flex-basis: 50%;}
+
+    #how-it-works {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    nav {
+
+        button { display: none; }
+
+        ul { display: block; }
+
+        li { width: 25%; float: left;}
+
+    }
+    #mid-nav {
+        margin: 1.3rem 0 1rem 1.3rem;
+        padding: 0;
+
+        img { width: 200px; }
+    }

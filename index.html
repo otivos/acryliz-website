@@ -10,197 +10,213 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <title>Acryliz Investments | Home</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/small.css">
-  <link rel="stylesheet" href="./styles/medium.css">
-  <link rel="stylesheet" href="./styles/large.css">
+  <link rel="stylesheet" href="/css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link rel="shortcut icon" href="./images/favicon/favicon.ico">
 </head>
 
 <body>
-    <header>
-      <div id="top-nav">
-        <ul class="nav">
-          <li class="nav-item"> <a href="" class="nav-link">About Us</a></li>
-          <li class="nav-item"> <a href="" class="nav-link"><i class="bi bi-envelope-fill"></i> info@acrylizinvestment.co.ke</a></li>
-          <li class="nav-item"> <a href="" class="nav-link"><i class="bi bi-whatsapp"></i> +254 703 136 732</a></li>
-          <li class="nav-item"> <a href="#acryliz-map" class="nav-link"><i class="bi bi-geo-fill"></i> Angawa Ave,
-              Kisumu</a></li>
-        </ul>
+<!-- HEADER SECTION -->
+  <header class="limited">
+    <div id="top-nav">
+      <ul class="nav">
+        <li class="nav-item"><a href="pages/about.html" class="navlink mx-2">About Us</a></li>
+        <li class="nav-item"><a href="" class="navlink mx-2"><i class="bi bi-envelope-fill"></i>&nbsp; info@acrylizinvestment.co.ke</a></li>
+        <li class="nav-item"><a href="" class="navlink mx-2"><i class="bi bi-whatsapp"></i>&nbsp; +254 703 136 732</a></a></li>
+        <li class="nav-item"><a href="#acryliz-map" class="navlink mx-2"><i class="bi bi-geo-fill"></i>&nbsp; Angawa Ave, Kisumu</a></a></li>
+      </ul>
+    </div> <!-- End of row -->
+    <div id="mid-nav" class="row container">
+      <div>
+        <img src="/images/acryliz-logo-official.svg" alt="Acryliz Logo" width="250">
       </div>
-      <nav id="nav-center" class="navbar navbar-expand-lg navbar-light mt-3">
-        <div class="container-fluid" id="mid-nav">
-          <a class="navbar-brand align-items-start" href="#"><img src="./images/acryliz-logo1.svg" width="150"
-              alt="Acryliz Investments Logo"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse " id="navbarTogglerDemo02">
-            <ul class="navbar-nav align-items-end mx-auto justify-content-center mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./uniforms-workwear.html">Uniforms &amp; Workwear</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="promotional.html">Promotional Merchandise</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
-              </li>
-            </ul>
-            <form class="d-flex" id="search">
-              <input class="form-control me-2" type="search" placeholder="I'm looking for... " aria-label="Search">
-              <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <div id="hero-section">
-        </div>
-      </section>
-      <section>
-        <h3 id="how-title" class="py-5">HOW IT WORKS</h3>
-        <div class="text-center" id="how">
-          <div class="steps" id="step1">
-            <img src="./images/how it works/step_1.svg" height="50" alt="">
-            <span class="steps-title">STEP 1</span>
+      <div class="text-center">
+        <form id="search-form" class="form-inline" action="">
+          <input type="search" name="" id="" placeholder="I'm looking for" >
+        </form>
+      </div>
+      <div class="text-end"> <button id="btn-bron" class="btn text-light">Request Bronchure</button></div>
+    </div> <!-- End of row -->
+    <nav>
+      <div class="row">
+        <button class="text-start" id="hamburgerBtn">&#9776;</button>
+        <ul id="primaryNav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Large Format Printing</a></li>
+          <li><a href="#">Tailoring &amp; Embroidery</a></li>
+          <li><a href="#">Promotional Products</a></li>
+        </ul>
+      </div> <!-- End of row -->
+    </nav>
+  </header>
+<!-- END OF HEADER -->
+
+<!-- HERO SECTION -->
+  <section class="limited">
+    <div class="row" id="hero-img">
+      <img src="/images/hero1.jpg" alt="Acryliz Hero Image" width="1200" height="450">
+    </div> <!-- End of row -->
+  </section>
+<!-- END OF HERO -->
+
+
+<!-- MAIN SECTION -->
+
+  <main class="limited">
+    <section>
+      <div>
+        <span id="how-title" class="d-block text-center">How it works</span>
+        <div class="row" id="how-it-works">
+          <div class="step">
+            <img src="/images/how it works/step_1.svg" alt="Step 1">
+            <h6>Step 1</h6>
             <p>Browse our website and find the products you are interested in.</p>
           </div>
-          <div class="steps" id="step2">
-            <img src="./images/how it works/step_2.svg" height="50" alt="">
-            <span class="steps-title">STEP 2</span>
+          <div class="step">
+            <img src="/images/how it works/step_2.svg" alt="Step 2">
+            <h6>Step 2</h6>
             <p>Tell us more about your requirements by filling out our simple form.</p>
           </div>
-          <div class="steps" id="step3">
-            <img src="./images/how it works/step_3.svg" height="50" alt="">
-            <span class="steps-title">STEP 3</span>
-            <p>Your dedicated Account Manager will get in touch to give you a quote and ensure all your needs are met.
-            </p>
+          <div class="step">
+            <img src="/images/how it works/step_3.svg" alt="Step 3">
+            <h6>Step 3</h6>
+            <p>A dedicated Account Manager will get in touch to ensure your needs are met.</p>
           </div>
-        </div>
-      </section>
-      <section>
-        <h2 class="py-5 text-center">OUR PRODUCTS</h2>
-        <div id="all-products">
-          <div class="products">
-            <img src="./images/products/sm/school-uniforms.jpg" alt="Two pupils wearing school uniforms" width="300">
-          </div>
-          <div class="products">
-            <img src="./images/products/sm/embroidery.jpg" alt="Embroidery machine" width="300">
-          </div>
-          <div class="products">
-            <img src="./images/products/sm/corporate-wears.jpg" alt="Two people wearing corporate wears" width="300">
-          </div>
-          <div class="products">
-            <img src="./images/products/sm/sportswear.jpg" alt="Sports wear uniforms" width="300">
-          </div>
-          <div class="products">
-            <img src="./images/products/sm/large-fomart-printing.jpg" alt="Large format printing machine" width="300">
-          </div>
-          <div class="products">
-            <img src="./images/products/sm/promotional-merchandise.jpg" alt="Large format printing machine" width="300">
-          </div>
-        </div>
-      </section>
-      <section class="mt-5">
-        <h2 class="text-center m-5">POPULAR CATEGORIES</h2>
-        <div id="popular-categories">
-          <div class="popular">
-            <img src="./images/popular categories/school-uniforms.jpg" alt="Two pupils reading on a staircase" width="350">
-          </div>
-          <div class="popular">
-            <img src="./images/popular categories/healthcare-uniform.jpg" alt="Nurse wearing a uniform" width="350">
-          </div>
-          <div class="popular">
-            <img src="./images/popular categories/security-uniform.jpg" alt="Security guard holding a stick" width="350">
-          </div>
-          <div class="popular">
-            <img src="./images/popular categories/hospitality-uniform.jpg" alt="Chef holding a silver bowl and spoon" width="350">
-          </div>
-        </div>
-      </section>
-
-      <section class="py-5">
-        <div id="acryliz-map" class="my-5">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2233086860715!2d34.75035857547812!3d-0.09981780630287067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf97ab01f645e126!2sAcryliz%20Investments%20Limited!5e0!3m2!1sen!2ske!4v1644218826296!5m2!1sen!2ske"
-            width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-        </div>
-      </section>
-
-      <section>
-        <div id="contact">
-          <div class="mt-3" id="contact-img">
-            <figure>
-              <img src="./images/contact_image.png" alt="contact illustration">
-            </figure>
-          </div>
-          <div class="container my-5" id="contact-text">
-            <span class="py-3" id="contact-title">Contact Us</span>
-            <h3 class="mt-5">Need a quote?</h3>
-            <h4 class="py-3">Get in touch with us.</h4>
-            <h5>Kisumu Office</h5>
-            <p>Angawa Avenue <br> Next to Kisumu Fire Station <br><i class="bi bi-whatsapp"></i> +254703136732 <br><i class="bi bi-envelope-fill"></i> info@acrylizinvestment.co.ke</p>
-            <button class="btn" id="contact-btn">Request a Quote</button>
-            <button class="btn btn-outline-success" id="bronchure-btn">Request Bronchure</button>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer>
-      <div id="footer" class="border-top pt-3">
-        <div id="uniforms">
-          <h3>Uniforms &amp; Workwear</h3>
-          <ul class="list-unstyled">
-            <li><a href="" class="">Industrial &amp; Corporate Uniforms</a> </li>
-            <li><a href="" class="py-2">Security Guard Uniforms</a></li>
-            <li><a href="" class="py-2">Healthcare &amp; Medical Uniforms</a></li>
-            <li><a href="" class="py-2">School Uniforms</a></li>
-            <li><a href="" class="py-2">Healthcare &amp; Medical Uniforms</a></li>
-            <li><a href="" class="py-2">Sportswear Equipment</a></li>
-          </ul>
-        </div>
-        <div id="promotional">
-          <h3>Promotional Merchandise</h3>
-          <ul class="list-unstyled">
-            <li><a href="" class="py-2">Branded Clothing &amp; Bags</a> </li>
-            <li><a href="" class="py-2">Security Guard Uniforms</a></li>
-            <li><a href="" class="py-2">Marketing Merchandise &amp; Corporate Gifts</a></li>
-            <li><a href="" class="py-2">Branded Stationery</a></li>
-          </ul>
-        </div>
-        <div id="services">
-          <h3>Services</h3>
-          <ul class="list-unstyled">
-            <li><a href="" class="py-2">Stitching</a> </li>
-            <li><a href="" class="py-2">Embroidery</a></li>
-            <li><a href="" class="py-2">Large Format Printing</a></li>
-            <li><a href="" class="py-2">Graphic Design</a></li>
-          </ul>
-        </div>
-        <div id="social">
-          <h3>Let's get social</h3>
-          <span class="py-2">
-            <a href="https://www.facebook.com/acrylizinvestment/" target="_blank" rel="noreferrer noopener"><i
-                class="bi bi-facebook p-2" style="font-size: 2rem;"></i></a>
-            <a href="http://instagram.com/acryliz_investment?utm_source=qr" target="_blank" rel="noreferrer noopener"><i
-                class="bi bi-instagram p-2" style="font-size: 2rem;"></i></a>
-          </span>
         </div>
       </div>
-      <div id="copy" class="text-center py-3">Acryliz Investment Limited &copy;2022 | All Rights Reserved.
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="container">
+      <div class="row">
+        <h2 class="text-center my-5"><span>Our</span> Products</h2>
+        <div class="column small-12 medium-6 large-3a labeled">
+          <h4>School Uniforms</h4>
+          <img src="/images/products/sm/school-uniforms.jpg" alt="Two pupils reading in a staircase">
+          <p><a href="#">View All</a></p>
+        </div>
+        <div class="column small-12 medium-6 large-3a labeled">
+          <h4>Coorporate Wears</h4>
+          <img src="/images/products/sm/corporate-wears.jpg" alt="Corporate wears">
+          <p><a href="#">View All</a></p>
+        </div>
+        <div class="column small-12 medium-6 large-3a labeled">
+          <h4>Embroidery</h4>
+          <img src="/images/products/sm/embroidery.jpg" alt="Embroidery Machine">
+          <p>V<a href="#">iew All</a></p>
+        </div>
+        <div class="column small-12 medium-6 large-3a labeled">
+          <h4>Large Format Printing</h4>
+          <img src="/images/products/sm/large-fomart-printing.jpg" alt="Large Format Printing">
+          <p><a href="#">View All</a></p>
+        </div>
+        <div class="column small-12 medium-6 large-3a labeled">
+          <h4>Promotional Products</h4>
+          <img src="/images/products/sm/promotional-merchandise.jpg" alt="Promotional Merchandise">
+          <p><a href="#">View All</a></p>
+        </div>
+        <div class="column small-12 medium-6 large-3a labeled">
+          <h4>Sportswear</h4>
+          <img src="/images/products/sm/sportswear.jpg" alt="Sportswear">
+          <p><a href="#">View All</a></p>
+        </div>
       </div>
-    </footer>
+    </section>
+
+    <!-- POPULAR CATEGORIES SECTION-->
+    <section>
+      <div id="popular-categories" class="row">
+        <h2 class="text-center my-5"><span>Popular</span> Categories</h2>
+        <div class="popular small-12 medium-6 large-3">
+          <img src="./images/popular categories/school-uniforms.jpg" alt="Two pupils reading on a staircase" width="">
+        </div>
+        <div class="popular small-12 medium-6 large-3">
+          <img src="./images/popular categories/healthcare-uniform.jpg" alt="Nurse wearing a uniform" width="">
+        </div>
+        <div class="popular small-12 medium-6 large-3">
+          <img src="./images/popular categories/security-uniform.jpg" alt="Security guard holding a stick" width="">
+        </div>
+        <div class="popular small-12 medium-6 large-3">
+          <img src="./images/popular categories/hospitality-uniform.jpg" alt="Chef holding a silver bowl and spoon" width="">
+        </div>
+      </div>
+    </section>
+
+    <!-- MAP SECTION -->
+    <section>
+      <div id="acryliz-map" class="my-5">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.2233086860715!2d34.75035857547812!3d-0.09981780630287067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf97ab01f645e126!2sAcryliz%20Investments%20Limited!5e0!3m2!1sen!2ske!4v1644218826296!5m2!1sen!2ske"
+          width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="container">
+      <div class="row" id="contact-section">
+        <div class="small-12 medium-6">
+          <img src="/images/contact_image.png" alt="Contact image">
+        </div>
+        <div class="small-12 medium-6">
+          <span>Contact Us</span>
+          <h3>Need a quote?</h3>
+          <h4 class="my-2">Get in touch with us.</h4>
+          <h5 class="mt-3">Kisumu Office</h5>
+          <p>Angawa Avenue <br> Next to Kisumu Fire Station <br><i class="bi bi-whatsapp"></i> +254703136732 <br><i class="bi bi-envelope-fill"></i> info@acrylizinvestment.co.ke</p>
+          <button class="btn my-3" id="quote-btn">Get a Quote</button>
+          <button class="btn my-3" id="bronchure-btn">Request Bronchure</button>
+        </div>
+      </div>
+    </section>
+  </main>
+<!-- END OF MAIN -->
+
+
+<!-- FOOTER SECTION -->
+  <footer class="limited container">
+    <div id="footer" class="row">
+      <div id="uniforms" class="column small-12 large-3 medium-6">
+        <h3>Uniforms</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">School Uniforms</a></li>
+          <li><a href="#">Industrial &amp; Corporate Uniforms</a></li>
+          <li><a href="#">Healthcare &amp; Medical Uniforms</a></li>
+          <li><a href="#">Sportswear Equipment</a></li>
+        </ul>
+      </div>
+      <div id="promotional" class="column small-12 large-3 medium-6">
+        <h3>Promotional</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">Branded Clothing &amp; Bags</a> </li>
+          <li><a href="#">Marketing Merchandise &amp; Corporate Gifts</a></li>
+          <li><a href="#">Branded Stationery</a></li>
+        </ul>
+      </div>
+      <div id="services" class="column small-12 large-3 medium-6">
+        <h3>Services</h3>
+        <ul class="list-unstyled">
+          <li><a href="#">Embroidery</a></li>
+          <li><a href="#">Large Format Printing</a></li>
+          <li><a href="#">Graphic Design</a></li>
+        </ul>
+      </div>
+      <div id="social" class="column small-12 large-3 medium-6">
+        <h3>Let's get social</h3>
+        <span>
+          <a href="https://www.facebook.com/acrylizinvestment/" target="_blank" rel="noreferrer noopener"><i
+              class="bi bi-facebook p-2" style="font-size: 2rem;"></i></a>
+          <a href="http://instagram.com/acryliz_investment?utm_source=qr" target="_blank" rel="noreferrer noopener"><i
+              class="bi bi-instagram p-2" style="font-size: 2rem;"></i></a>
+        </span>
+      </div>
+    </div>
+    <div id="copy" class="text-center"><p>Acryliz Investment Limited &copy;2022 | All Rights Reserved.</p></div>
+  </footer>
+<!-- END OF FOOTER -->
+
+  <script src="/js/menuToggle.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
